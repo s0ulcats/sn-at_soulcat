@@ -3,7 +3,7 @@ import { Formik } from "formik";
 import React, { FC } from "react";
 import * as Yup from "yup";
 import { ProfileType } from "../../../types/types";
-import classes from "./ProfileInfo.module.css";
+import classes from "./ProfileInfo.module.scss";
 
 type PropsType = {
     profile: ProfileType;

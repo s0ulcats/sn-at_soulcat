@@ -4,7 +4,7 @@ import React, { Component, FC, Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { compose } from 'redux';
-import './App.css';
+import './App.scss';
 import Preloader from './components/common/preloader/Preloader.tsx';
 import Header from './components/Header/Header.tsx';
 import { Login } from './components/Login/Login.tsx';

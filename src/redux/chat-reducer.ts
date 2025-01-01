@@ -1,5 +1,5 @@
 import { Dispatch } from "redux";
-import { FormAction } from 'redux-form/lib/actions';
+import { FormAction } from 'redux-form';
 import { v1 } from 'uuid';
 import { chatAPI, ChatMessageAPIType, StatusType } from "../api/chatApi.ts";
 import { BaseThunkType, InferActionsTypes } from "./reduxStore.ts";

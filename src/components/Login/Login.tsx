@@ -4,6 +4,7 @@ import { Navigate } from "react-router-dom";
 import { useAppDispatch } from "../../hooks/hooks.ts";
 import { login } from "../../redux/auth-reducer.ts";
 import { AppStateType } from "../../redux/reduxStore";
+import s from "./Login.module.scss"; // Импорт стилей
 import LoginReduxForm, { FormValuesType } from "./LoginReduxForm.tsx";
 
 export const Login: FC = () => {
@@ -34,9 +35,11 @@ export const Login: FC = () => {
     }
 
     return (
-        <div>
-            <h1>Login</h1>
-            <LoginReduxForm onSubmit={handleSubmit} captchaUrl={captchaUrl} />
+        <div className={s.loginPage}>
+            <div className={s.loginContainer}>
+                <h1>Login</h1>
+                <LoginReduxForm onSubmit={handleSubmit} captchaUrl={captchaUrl} />
+            </div>
         </div>
     );
 };

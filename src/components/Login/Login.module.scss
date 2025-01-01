@@ -1,0 +1,15 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    width: 100%;
+    max-width: 400px; // Ограничение ширины формы
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; // Центровка текста
+}

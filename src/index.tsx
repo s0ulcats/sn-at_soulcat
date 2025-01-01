@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import SoulJsApp from './App.tsx';
-import './index.css';
+import './index.scss';
 import store, { AppStateType } from './redux/reduxStore.ts';
 
 let rerenderEntireTree = (state: AppStateType): void => {

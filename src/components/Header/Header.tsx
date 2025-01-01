@@ -7,7 +7,7 @@ import headerLogo from '../../assets/images/cat.png';
 import { logout } from "../../redux/auth-reducer.ts";
 import { selectCurrentUserLogin, selectIsAuth } from "../../redux/auth-selectors.ts";
 import { useDispatch } from "../../redux/reduxStore.ts";
-import classes from './Header.module.css';
+import classes from './Header.module.scss';
 
 const { Header: AntHeader } = Layout;
 

@@ -5,7 +5,7 @@ import loginIMG from '../../../assets/images/unknownUser.png';
 import { ProfileType } from "../../../types/types.ts";
 import Preloader from "../../common/preloader/Preloader.tsx";
 import ProfileDataForm from "./ProfileDataForm.tsx";
-import classes from './ProfileInfo.module.css';
+import classes from './ProfileInfo.module.scss';
 import ProfileStatusWithHooks from './ProfileStatusWithHooks.tsx';
 
 type PropsType = {

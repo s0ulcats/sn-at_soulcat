@@ -1,6 +1,6 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import postFormSchema from "../../../FormValidation/PostFormSchema.ts";
-import classes from '../MyPosts.module.css';
+import classes from '../MyPosts.module.scss';
 
 import { Button } from "antd";
 import React, { FC } from "react";

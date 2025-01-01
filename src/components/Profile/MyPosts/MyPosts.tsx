@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostType } from "../../../types/types.ts";
 import AddNewPostForm, { AddNewPostFormValuesType } from "./AddNewPostForm/AddNewPostForm.tsx";
-import classes from './MyPosts.module.css';
+import classes from './MyPosts.module.scss';
 import Post from './Post/Post.tsx';
 
 export type MapPropsType = {

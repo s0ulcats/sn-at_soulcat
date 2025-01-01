@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from './Post.module.css';
+import classes from './Post.module.scss';
 
 type PropsType = {
     message: string
