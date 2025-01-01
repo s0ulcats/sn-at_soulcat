@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+
+.nav {
+    grid-area: n;
+    background: rgb(2, 2, 104);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.item a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.item a:hover {
+    color: purple;
+    transform: scale(1.15);
+}
+
+.item a.active {
+    color: purple;
+    border-left: 4px solid purple;
+    padding-left: 10px;
+}

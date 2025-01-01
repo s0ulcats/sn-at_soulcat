@@ -1,0 +1,41 @@
+.paginator {
+    margin: 10p;
+}
+
+.pageNumber {
+    padding: 2px;
+    cursor: pointer; 
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.pageNumber:hover {
+    transform: scale(1.2);
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: aqua;
+    border-color: black;
+    cursor: pointer; 
+}
+
+button {
+    font-weight: bold;
+    color: red;
+    outline: none;
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+}
+
+
+.paginatorButtons {
+    margin-top: 15px;
+    color: black;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #220a97;
+    }
+}

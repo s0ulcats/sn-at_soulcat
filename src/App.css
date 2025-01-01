@@ -1,0 +1,24 @@
+/* App.module.css */
+
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+  grid-template-areas:
+      "h h"
+      "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  background: linear-gradient(90deg, rgb(2, 2, 104), rgb(45, 4, 116));
+  overflow: hidden;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background: linear-gradient(90deg, rgb(2, 2, 104), rgb(45, 4, 116));
+  border-left: 2px solid aqua;
+  padding: 20px;
+  color: pink;
+  font-size: 18px;
+  line-height: 1.6;
+}

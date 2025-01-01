@@ -1,0 +1,23 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.find {
+    margin-top: 15px;
+    color: black;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #220a97;
+    }
+}

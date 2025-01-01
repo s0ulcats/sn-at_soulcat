@@ -1,0 +1,59 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+    border-right: 2px solid aqua;
+}
+
+.dialog a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.dialog img {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message img {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    outline: none;
+}
+
+.error {
+    color: red;
+}
+
+.errorTextarea {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.submit {
+    margin-top: 15px;
+    color: black;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #220a97;
+    }
+}

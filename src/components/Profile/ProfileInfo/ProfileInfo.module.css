@@ -1,0 +1,99 @@
+.profileContainer {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profileImageWrapper {
+    position: relative;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid black;
+}
+
+.uploadLabel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+}
+
+.fileInput {
+    display: none;
+}
+
+.profileName {
+    text-align: center;
+}
+
+.profileName h1 {
+    margin-bottom: 5px; /* Отступ между именем и статусом */
+}
+
+.profileName .statusBlock {
+    font-size: 14px;
+    color: #666;
+}
+
+.editButton {
+    background: #ff4b5c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.editButton:hover {
+    background: #ff3a4d;
+}
+
+.statusBlock {
+    margin-top: 50px;
+}
+
+.jobInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.jobImage {
+    width: 90px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.aboutMe {
+    margin: 10px 0;
+}
+
+.contacts ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contactItem {
+    margin: 5px 0;
+}
